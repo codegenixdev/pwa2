@@ -1,3 +1,28 @@
+!!!!!!!!!!!!!!!!
+
+Nazar@amirnz MINGW64 ~/Documents/projects/pwa2
+$ npm create @vite-pwa/pwa@latest .
+
+> npx
+> create-pwa .
+
+√ Select a framework: » React
+√ Select a variant: » TypeScript  
+√ PWA Name: ... pwa2
+√ PWA Short Name: ... pwa2
+!!!!!!!!!! use inject instead of generate
+es
+√ Show offline ready prompt? ... no / yes
+√ Generate PWA Assets Icons on the fly? ... no / yes
+
+Scaffolding project in C:\Users\Nazar\Documents\projects\pwa2...
+
+Done. Now run:
+
+npm install
+npm run generate-pwa-icons
+npm run dev
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -17,12 +42,12 @@ If you are developing a production application, we recommend updating the config
 export default {
   // other rules...
   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
+    ecmaVersion: "latest",
+    sourceType: "module",
+    project: ["./tsconfig.json", "./tsconfig.node.json"],
     tsconfigRootDir: __dirname,
   },
-}
+};
 ```
 
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
