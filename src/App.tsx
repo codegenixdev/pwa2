@@ -3,12 +3,12 @@ import PWABadge from "./PWABadge.tsx";
 
 function App() {
   const handleClick = () => {
-    alert("print");
+    alert("v1");
   };
 
   return (
     <>
-      <button onClick={handleClick}>print</button>
+      <button onClick={handleClick}>v1</button>
       <PWABadge />
     </>
   );
