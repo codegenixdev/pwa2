@@ -40,3 +40,77 @@
 .read-the-docs {
   color: #888;
 }
+
+.receipt-container {
+  font-family: Arial, sans-serif;
+}
+
+.receipt {
+  width: 300px;
+  padding: 20px;
+  margin: 20px auto;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.displaynone {
+  display: none;
+}
+
+.receipt-content {
+  text-align: center;
+}
+
+.receipt-content h2 {
+  margin: 0;
+  padding: 10px 0;
+}
+
+.receipt-divider {
+  border-top: 1px dashed #ccc;
+  margin: 10px 0;
+}
+
+.items-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0;
+}
+
+.items-table th,
+.items-table td {
+  padding: 5px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.receipt-totals {
+  text-align: right;
+  margin: 10px 0;
+}
+
+.receipt-totals .total {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.receipt-footer {
+  margin-top: 20px;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.print-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.print-button:hover {
+  background-color: #0056b3;
+}
